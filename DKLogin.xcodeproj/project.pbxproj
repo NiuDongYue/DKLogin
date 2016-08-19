@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF4E74DA0323EC9270B9D45 /* Pods_DKLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F25FF96650CFBBA92EF5B7 /* Pods_DKLogin.framework */; };
+		851323221D62E166003A0B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323211D62E166003A0B77 /* main.m */; };
+		851323251D62E166003A0B77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323241D62E166003A0B77 /* AppDelegate.m */; };
+		851323281D62E166003A0B77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323271D62E166003A0B77 /* ViewController.m */; };
+		8513232B1D62E166003A0B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851323291D62E166003A0B77 /* Main.storyboard */; };
+		8513232D1D62E166003A0B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8513232C1D62E166003A0B77 /* Assets.xcassets */; };
+		851323301D62E166003A0B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8513232E1D62E166003A0B77 /* LaunchScreen.storyboard */; };
+		8513233B1D62E166003A0B77 /* DKLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8513233A1D62E166003A0B77 /* DKLoginTests.m */; };
+		851323461D62E166003A0B77 /* DKLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323451D62E166003A0B77 /* DKLoginUITests.m */; };
+		851323A21D66AABE003A0B77 /* DKLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323A11D66AABE003A0B77 /* DKLoginViewModel.m */; };
+		851323A61D66AFC6003A0B77 /* DKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323A51D66AFC6003A0B77 /* DKHelper.m */; };
+		851323A91D66B572003A0B77 /* DKLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323A81D66B572003A0B77 /* DKLogin.m */; };
+		851323AE1D66C336003A0B77 /* DKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323AD1D66C336003A0B77 /* DKButton.m */; };
+		851323B21D66C4F4003A0B77 /* DKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851323B01D66C4F4003A0B77 /* DKLoginViewController.m */; };
+		851323B31D66C4F4003A0B77 /* DKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851323B11D66C4F4003A0B77 /* DKLoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851323371D62E166003A0B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851323151D62E165003A0B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8513231C1D62E165003A0B77;
+			remoteInfo = DKLogin;
+		};
+		851323421D62E166003A0B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851323151D62E165003A0B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8513231C1D62E165003A0B77;
+			remoteInfo = DKLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A36991597B7884FE8389B91 /* Pods-DKLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKLogin/Pods-DKLogin.release.xcconfig"; sourceTree = "<group>"; };
+		8513231D1D62E165003A0B77 /* DKLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851323211D62E166003A0B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851323231D62E166003A0B77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		851323241D62E166003A0B77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		851323261D62E166003A0B77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		851323271D62E166003A0B77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8513232A1D62E166003A0B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8513232C1D62E166003A0B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8513232F1D62E166003A0B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851323311D62E166003A0B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851323361D62E166003A0B77 /* DKLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8513233A1D62E166003A0B77 /* DKLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKLoginTests.m; sourceTree = "<group>"; };
+		8513233C1D62E166003A0B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851323411D62E166003A0B77 /* DKLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851323451D62E166003A0B77 /* DKLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKLoginUITests.m; sourceTree = "<group>"; };
+		851323471D62E166003A0B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851323A01D66AABE003A0B77 /* DKLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKLoginViewModel.h; sourceTree = "<group>"; };
+		851323A11D66AABE003A0B77 /* DKLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKLoginViewModel.m; sourceTree = "<group>"; };
+		851323A41D66AFC6003A0B77 /* DKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHelper.h; sourceTree = "<group>"; };
+		851323A51D66AFC6003A0B77 /* DKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHelper.m; sourceTree = "<group>"; };
+		851323A71D66B572003A0B77 /* DKLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKLogin.h; sourceTree = "<group>"; };
+		851323A81D66B572003A0B77 /* DKLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKLogin.m; sourceTree = "<group>"; };
+		851323AB1D66B8F9003A0B77 /* DKProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProtocols.h; sourceTree = "<group>"; };
+		851323AC1D66C336003A0B77 /* DKButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKButton.h; sourceTree = "<group>"; };
+		851323AD1D66C336003A0B77 /* DKButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKButton.m; sourceTree = "<group>"; };
+		851323AF1D66C4F4003A0B77 /* DKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKLoginViewController.h; sourceTree = "<group>"; };
+		851323B01D66C4F4003A0B77 /* DKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKLoginViewController.m; sourceTree = "<group>"; };
+		851323B11D66C4F4003A0B77 /* DKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKLoginViewController.xib; sourceTree = "<group>"; };
+		9FC5BBFD699ED424DE94C396 /* Pods-DKLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKLogin/Pods-DKLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F25FF96650CFBBA92EF5B7 /* Pods_DKLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8513231A1D62E165003A0B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF4E74DA0323EC9270B9D45 /* Pods_DKLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851323331D62E166003A0B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8513233E1D62E166003A0B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851323141D62E165003A0B77 = {
+			isa = PBXGroup;
+			children = (
+				8513231F1D62E166003A0B77 /* DKLogin */,
+				851323391D62E166003A0B77 /* DKLoginTests */,
+				851323441D62E166003A0B77 /* DKLoginUITests */,
+				8513231E1D62E165003A0B77 /* Products */,
+				973A6E59F7892117D2332BB2 /* Pods */,
+				CA5AA6755BAF93A1D2EBB5ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8513231E1D62E165003A0B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8513231D1D62E165003A0B77 /* DKLogin.app */,
+				851323361D62E166003A0B77 /* DKLoginTests.xctest */,
+				851323411D62E166003A0B77 /* DKLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8513231F1D62E166003A0B77 /* DKLogin */ = {
+			isa = PBXGroup;
+			children = (
+				851323AA1D66B591003A0B77 /* Protocol */,
+				851323A31D66AFB4003A0B77 /* Helper */,
+				851323531D62E32E003A0B77 /* Model */,
+				851323541D62E32E003A0B77 /* Scene */,
+				851323551D62E32E003A0B77 /* View */,
+				851323561D62E32E003A0B77 /* ViewModel */,
+				851323231D62E166003A0B77 /* AppDelegate.h */,
+				851323241D62E166003A0B77 /* AppDelegate.m */,
+				851323261D62E166003A0B77 /* ViewController.h */,
+				851323271D62E166003A0B77 /* ViewController.m */,
+				851323291D62E166003A0B77 /* Main.storyboard */,
+				8513232C1D62E166003A0B77 /* Assets.xcassets */,
+				8513232E1D62E166003A0B77 /* LaunchScreen.storyboard */,
+				851323311D62E166003A0B77 /* Info.plist */,
+				851323201D62E166003A0B77 /* Supporting Files */,
+				851323A71D66B572003A0B77 /* DKLogin.h */,
+				851323A81D66B572003A0B77 /* DKLogin.m */,
+			);
+			path = DKLogin;
+			sourceTree = "<group>";
+		};
+		851323201D62E166003A0B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851323211D62E166003A0B77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851323391D62E166003A0B77 /* DKLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				8513233A1D62E166003A0B77 /* DKLoginTests.m */,
+				8513233C1D62E166003A0B77 /* Info.plist */,
+			);
+			path = DKLoginTests;
+			sourceTree = "<group>";
+		};
+		851323441D62E166003A0B77 /* DKLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851323451D62E166003A0B77 /* DKLoginUITests.m */,
+				851323471D62E166003A0B77 /* Info.plist */,
+			);
+			path = DKLoginUITests;
+			sourceTree = "<group>";
+		};
+		851323531D62E32E003A0B77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		851323541D62E32E003A0B77 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				851323AF1D66C4F4003A0B77 /* DKLoginViewController.h */,
+				851323B01D66C4F4003A0B77 /* DKLoginViewController.m */,
+				851323B11D66C4F4003A0B77 /* DKLoginViewController.xib */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		851323551D62E32E003A0B77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				851323AC1D66C336003A0B77 /* DKButton.h */,
+				851323AD1D66C336003A0B77 /* DKButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		851323561D62E32E003A0B77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				851323A01D66AABE003A0B77 /* DKLoginViewModel.h */,
+				851323A11D66AABE003A0B77 /* DKLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		851323A31D66AFB4003A0B77 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				851323A41D66AFC6003A0B77 /* DKHelper.h */,
+				851323A51D66AFC6003A0B77 /* DKHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		851323AA1D66B591003A0B77 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				851323AB1D66B8F9003A0B77 /* DKProtocols.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		973A6E59F7892117D2332BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5BBFD699ED424DE94C396 /* Pods-DKLogin.debug.xcconfig */,
+				5A36991597B7884FE8389B91 /* Pods-DKLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA5AA6755BAF93A1D2EBB5ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F25FF96650CFBBA92EF5B7 /* Pods_DKLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8513231C1D62E165003A0B77 /* DKLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8513234A1D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLogin" */;
+			buildPhases = (
+				0A87D8F7C06C998127A2B980 /* [CP] Check Pods Manifest.lock */,
+				851323191D62E165003A0B77 /* Sources */,
+				8513231A1D62E165003A0B77 /* Frameworks */,
+				8513231B1D62E165003A0B77 /* Resources */,
+				257B15F7FF07C2604C1A21FB /* [CP] Embed Pods Frameworks */,
+				579E53C07E9E6375212803DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKLogin;
+			productName = DKLogin;
+			productReference = 8513231D1D62E165003A0B77 /* DKLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851323351D62E166003A0B77 /* DKLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8513234D1D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLoginTests" */;
+			buildPhases = (
+				851323321D62E166003A0B77 /* Sources */,
+				851323331D62E166003A0B77 /* Frameworks */,
+				851323341D62E166003A0B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851323381D62E166003A0B77 /* PBXTargetDependency */,
+			);
+			name = DKLoginTests;
+			productName = DKLoginTests;
+			productReference = 851323361D62E166003A0B77 /* DKLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851323401D62E166003A0B77 /* DKLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851323501D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLoginUITests" */;
+			buildPhases = (
+				8513233D1D62E166003A0B77 /* Sources */,
+				8513233E1D62E166003A0B77 /* Frameworks */,
+				8513233F1D62E166003A0B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851323431D62E166003A0B77 /* PBXTargetDependency */,
+			);
+			name = DKLoginUITests;
+			productName = DKLoginUITests;
+			productReference = 851323411D62E166003A0B77 /* DKLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851323151D62E165003A0B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhaiQiang;
+				TargetAttributes = {
+					8513231C1D62E165003A0B77 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					851323351D62E166003A0B77 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8513231C1D62E165003A0B77;
+					};
+					851323401D62E166003A0B77 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8513231C1D62E165003A0B77;
+					};
+				};
+			};
+			buildConfigurationList = 851323181D62E165003A0B77 /* Build configuration list for PBXProject "DKLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851323141D62E165003A0B77;
+			productRefGroup = 8513231E1D62E165003A0B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8513231C1D62E165003A0B77 /* DKLogin */,
+				851323351D62E166003A0B77 /* DKLoginTests */,
+				851323401D62E166003A0B77 /* DKLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8513231B1D62E165003A0B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851323301D62E166003A0B77 /* LaunchScreen.storyboard in Resources */,
+				851323B31D66C4F4003A0B77 /* DKLoginViewController.xib in Resources */,
+				8513232D1D62E166003A0B77 /* Assets.xcassets in Resources */,
+				8513232B1D62E166003A0B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851323341D62E166003A0B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8513233F1D62E166003A0B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A87D8F7C06C998127A2B980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		257B15F7FF07C2604C1A21FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKLogin/Pods-DKLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579E53C07E9E6375212803DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKLogin/Pods-DKLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851323191D62E165003A0B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851323A91D66B572003A0B77 /* DKLogin.m in Sources */,
+				851323B21D66C4F4003A0B77 /* DKLoginViewController.m in Sources */,
+				851323AE1D66C336003A0B77 /* DKButton.m in Sources */,
+				851323281D62E166003A0B77 /* ViewController.m in Sources */,
+				851323A21D66AABE003A0B77 /* DKLoginViewModel.m in Sources */,
+				851323251D62E166003A0B77 /* AppDelegate.m in Sources */,
+				851323221D62E166003A0B77 /* main.m in Sources */,
+				851323A61D66AFC6003A0B77 /* DKHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851323321D62E166003A0B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8513233B1D62E166003A0B77 /* DKLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8513233D1D62E166003A0B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851323461D62E166003A0B77 /* DKLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851323381D62E166003A0B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8513231C1D62E165003A0B77 /* DKLogin */;
+			targetProxy = 851323371D62E166003A0B77 /* PBXContainerItemProxy */;
+		};
+		851323431D62E166003A0B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8513231C1D62E165003A0B77 /* DKLogin */;
+			targetProxy = 851323421D62E166003A0B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851323291D62E166003A0B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8513232A1D62E166003A0B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8513232E1D62E166003A0B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8513232F1D62E166003A0B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851323481D62E166003A0B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		851323491D62E166003A0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8513234B1D62E166003A0B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC5BBFD699ED424DE94C396 /* Pods-DKLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8513234C1D62E166003A0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A36991597B7884FE8389B91 /* Pods-DKLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8513234E1D62E166003A0B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DKLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKLogin.app/DKLogin";
+			};
+			name = Debug;
+		};
+		8513234F1D62E166003A0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DKLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKLogin.app/DKLogin";
+			};
+			name = Release;
+		};
+		851323511D62E166003A0B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DKLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKLogin;
+			};
+			name = Debug;
+		};
+		851323521D62E166003A0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DKLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nstimer.DKLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851323181D62E165003A0B77 /* Build configuration list for PBXProject "DKLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851323481D62E166003A0B77 /* Debug */,
+				851323491D62E166003A0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8513234A1D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8513234B1D62E166003A0B77 /* Debug */,
+				8513234C1D62E166003A0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8513234D1D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8513234E1D62E166003A0B77 /* Debug */,
+				8513234F1D62E166003A0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851323501D62E166003A0B77 /* Build configuration list for PBXNativeTarget "DKLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851323511D62E166003A0B77 /* Debug */,
+				851323521D62E166003A0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851323151D62E165003A0B77 /* Project object */;
+}

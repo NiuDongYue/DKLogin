@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKLoginViewController">
+            <connections>
+                <outlet property="btnCode" destination="s7x-un-WVo" id="JID-6u-UPi"/>
+                <outlet property="btnLogin" destination="aL4-IR-dpD" id="oUR-vL-eMg"/>
+                <outlet property="txtCode" destination="uK5-Zd-Jzm" id="PqA-KD-f1d"/>
+                <outlet property="txtPhone" destination="TOU-bH-cjl" id="8fU-Fq-3q7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TOU-bH-cjl">
+                    <rect key="frame" x="25" y="40" width="550" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uK5-Zd-Jzm">
+                    <rect key="frame" x="25" y="83" width="470" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7x-un-WVo" customClass="DKButton">
+                    <rect key="frame" x="503" y="83" width="72" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="WOu-GC-Ijr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="获取验证码"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aL4-IR-dpD" customClass="DKButton">
+                    <rect key="frame" x="25" y="139" width="550" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="获取验证码"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uK5-Zd-Jzm" firstAttribute="leading" secondItem="TOU-bH-cjl" secondAttribute="leading" id="5tu-U0-fLt"/>
+                <constraint firstItem="s7x-un-WVo" firstAttribute="leading" secondItem="uK5-Zd-Jzm" secondAttribute="trailing" constant="8" id="67l-1Q-PCK"/>
+                <constraint firstItem="aL4-IR-dpD" firstAttribute="top" secondItem="uK5-Zd-Jzm" secondAttribute="bottom" constant="26" id="8v7-Wz-iXF"/>
+                <constraint firstAttribute="trailing" secondItem="s7x-un-WVo" secondAttribute="trailing" constant="25" id="EK3-C0-63g"/>
+                <constraint firstItem="aL4-IR-dpD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="Fn5-WK-FyH"/>
+                <constraint firstItem="s7x-un-WVo" firstAttribute="bottom" secondItem="uK5-Zd-Jzm" secondAttribute="bottom" id="QhZ-kh-1XE"/>
+                <constraint firstItem="TOU-bH-cjl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="Z0B-o0-tpz"/>
+                <constraint firstItem="TOU-bH-cjl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="b6u-lV-uMe"/>
+                <constraint firstItem="s7x-un-WVo" firstAttribute="top" secondItem="uK5-Zd-Jzm" secondAttribute="top" id="e0d-MB-cdE"/>
+                <constraint firstAttribute="trailing" secondItem="aL4-IR-dpD" secondAttribute="trailing" constant="25" id="mOS-Ju-G2q"/>
+                <constraint firstItem="aL4-IR-dpD" firstAttribute="height" secondItem="s7x-un-WVo" secondAttribute="height" id="pQm-aa-tYn"/>
+                <constraint firstAttribute="trailing" secondItem="TOU-bH-cjl" secondAttribute="trailing" constant="25" id="wKy-a6-93Q"/>
+                <constraint firstItem="uK5-Zd-Jzm" firstAttribute="top" secondItem="TOU-bH-cjl" secondAttribute="bottom" constant="13" id="xSO-PG-gax"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
